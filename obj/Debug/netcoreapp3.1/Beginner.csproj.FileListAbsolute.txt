@@ -1,0 +1,13 @@
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.exe
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.deps.json
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.runtimeconfig.json
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.dll
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\bin\Debug\netcoreapp3.1\Beginner.pdb
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.dll
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.pdb
+C:\Users\ASUS\Desktop\Абрамян задачи с#\Beginner\obj\Debug\netcoreapp3.1\Beginner.genruntimeconfig.cache
