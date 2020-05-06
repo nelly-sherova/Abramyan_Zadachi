@@ -6,7 +6,7 @@ namespace Beginner
     {
         static void Main(string[] args)
         {
-            /*{
+            {
                 Console.Write("Задание 1\na = "); double a = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"P = {4*a}");   
             }
             {
@@ -62,10 +62,39 @@ namespace Beginner
             }
             {
                 Console.Write("Задание 19\nx1 = "); double x1 = Convert.ToDouble(Console.ReadLine());  Console.Write("y1 = "); double y1 = Convert.ToDouble(Console.ReadLine()); Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine()); Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"P = {2 * (Math.Abs(x2 - x1) + Math.Abs(y2 - y1))}");
-            }*/
+            }
             {
-                Console.Write("Задание 20\nx1 = "); double x1 = Convert.ToDouble(Console.ReadLine());  Console.Write("y1 = "); double y1 = Convert.ToDouble(Console.ReadLine()); Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine()); Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine()); Console.Write($"r = {Math.Pow((Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2)),0.5)}");
-                
+                Console.Write("Задание 20\nx1 = "); double x1 = Convert.ToDouble(Console.ReadLine());  Console.Write("y1 = "); double y1 = Convert.ToDouble(Console.ReadLine()); Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine()); Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine()); Console.Write($"r = {Math.Pow((Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2)),0.5)}"); 
+            }
+            {
+                Console.Write("Задание 21\nx1 = ");double x1 = Convert.ToDouble(Console.ReadLine());  Console.Write("y1 = "); double y1 = Convert.ToDouble(Console.ReadLine()); Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine()); Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine()); Console.Write("x3 = "); double x3 = Convert.ToDouble(Console.ReadLine()); Console.Write("y3 = "); double y3 = Convert.ToDouble(Console.ReadLine()); double a, b, c; a = Math.Pow(((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)),0.5); b = Math.Pow(((x2-x3)*(x2-x3)+(y2-y3)*(y2-y3)),0.5); c = Math.Pow(((x1-x3)*(x1-x3)+(y1-y3)*(y1-y3)),0.5); double P = a + b + c ; double p = P/2; Console.WriteLine($"P = {P}\np = {p}\nS = {Math.Pow((p*(p-a)*(p-b)*(p-c)),0.5)}");
+            }
+            {
+                Console.Write("Задание 22\nA = "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("B = "); double b = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"a = {a} , b = {b}"); a = a + b; b = a - b; a = a - b; Console.WriteLine($"new a and b : \na = {a} , b = {b} ");
+            }
+            {
+                Console.Write("Задание 23\nA = "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("B = "); double b = Convert.ToDouble(Console.ReadLine()); Console.Write("C = "); double c = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"a = {a}, b = {b} , c = {c}"); a = a + b + c ; c = a - b - c; b = a - b - c; a = a - b - c; Console.WriteLine($"new a, b, c\na -> b -> {a}\nb -> c -> {b}\nc -> a -> {c}"); 
+            }
+            {
+                Console.Write("Задание 24\nA = "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("B = "); double b = Convert.ToDouble(Console.ReadLine()); Console.Write("C = "); double c = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"a = {a}, b = {b} , c = {c}"); a = a + b + c ; b = a - b - c; c = a - b - c; a = a - b - c; Console.WriteLine($"new a, b, c\na -> c -> {a}\nb -> a -> {b}\nc -> b -> {c}"); 
+            }
+            {
+                Console.Write("Задание 25\ny = 3·x^6 – 6·x^2 – 7\nx = "); double x = Convert.ToDouble(Console.ReadLine()); double y = 3 * Math.Pow(x,6) - 6 * x*x - 7; Console.WriteLine($"y({x}) = {y}");
+            }
+            {
+                Console.Write("Задание 26\ny = 4·(x–3)^6 – 7·(x–3)^3 + 2\nx = "); double x = Convert.ToDouble(Console.ReadLine()); double y = 4 * Math.Pow((x-3),6) - 7 * Math.Pow((x-3),3) + 2; Console.WriteLine($"y = {y}");
+            }
+            {
+                Console.Write("Задание 27\nA = "); double a = Convert.ToDouble(Console.ReadLine()); double a2, a4, a8; a2 = a*a; a4 = a2*a2; a8 = a4 * a4; Console.WriteLine($"{a}^8 = {a8}");
+            }
+            {
+                Console.Write("Задание 28\nA = "); double a = Convert.ToDouble(Console.ReadLine()); double a2, a3, a5, a10, a15; a2 = a * a; a3 = a2 * a; a5 = a2 * a3; a10 = a5 * a5; a15 = a10* a5; Console.WriteLine($"{a}^15 = {a15}");  
+            }
+            {
+                Console.Write("Задание 29\n(0 < l < 360)\nl = "); double l = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"{l} градусов это {l/57,3} радиан");
+            }
+            {
+                Console.Write("Задание 30\n(0 < radian < 2*pi)\nradian = "); double r = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"{r} радианов это {r*57,3} градусов");
             }
         }
     }
