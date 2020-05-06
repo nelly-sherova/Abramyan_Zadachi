@@ -6,7 +6,7 @@ namespace Beginner
     {
         static void Main(string[] args)
         {
-            {
+            /*{
                 Console.Write("Задание 1\na = "); double a = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"P = {4*a}");   
             }
             {
@@ -96,6 +96,21 @@ namespace Beginner
             {
                 Console.Write("Задание 30\n(0 < radian < 2*pi)\nradian = "); double r = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"{r} радианов это {r*57,3} градусов");
             }
-        }
+            {
+                Console.Write("Задание 31\nTf = "); double tf = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"Tc = {(tf-32)*5/9}");
+            }
+            {
+                Console.Write("Задание 32\nTc = "); double tc = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"Tf = {(9*tc/5)+32}");
+            }
+            {
+                Console.Write("Задание 33\nX кг конфет: "); double x = Convert.ToDouble(Console.ReadLine()); Console.Write("Стоят A рублей: "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write($"Cтоимость одного кг конфет: {a/x}\nY = "); double y = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"Стоимость {y} кг конфет : {y * (a/x)}");
+            }
+            {
+                Console.Write("Задание 34\nx кг шоколадок: "); double x = Convert.ToDouble(Console.ReadLine()); Console.Write("Стоят: "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("y кг ирисок: "); double y = Convert.ToDouble(Console.ReadLine()); Console.Write("Cтоят: "); double b = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"1 кг шоколадок стоят: {a/x}\n1 кг ирисок стоят: {b/y}\nЦена за кг шоколадок в {(a/x)/(b/y)} раз дороже ирисок");
+            }*/
+            {
+                Console.Write("Задание 35\n")
+            }
+        } 
     }
 }
