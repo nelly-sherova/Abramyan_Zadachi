@@ -6,7 +6,7 @@ namespace Beginner
     {
         static void Main(string[] args)
         {
-            /*{
+            {
                 Console.Write("Задание 1\na = "); double a = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"P = {4*a}");   
             }
             {
@@ -107,9 +107,24 @@ namespace Beginner
             }
             {
                 Console.Write("Задание 34\nx кг шоколадок: "); double x = Convert.ToDouble(Console.ReadLine()); Console.Write("Стоят: "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("y кг ирисок: "); double y = Convert.ToDouble(Console.ReadLine()); Console.Write("Cтоят: "); double b = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"1 кг шоколадок стоят: {a/x}\n1 кг ирисок стоят: {b/y}\nЦена за кг шоколадок в {(a/x)/(b/y)} раз дороже ирисок");
-            }*/
+            }
             {
-                Console.Write("Задание 35\n")
+                Console.Write("Задание 35\nV = "); double v = Convert.ToDouble(Console.ReadLine()); Console.Write("U = ");double u = Convert.ToDouble(Console.ReadLine()); Console.Write("T1 = "); double t1 = Convert.ToDouble(Console.ReadLine()); Console.Write("T2 = "); double t2 = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"S1 = {v*t1}\nS2 = {(v-u)*t2}"); 
+            }
+            {
+                Console.Write("Задание 36\nV1 = "); double v1 = Convert.ToDouble(Console.ReadLine()); Console.Write("V2 = "); double v2  = Convert.ToDouble(Console.ReadLine()); Console.Write("T = "); double t = Convert.ToDouble(Console.ReadLine()); Console.Write("s = "); double s = Convert.ToDouble(Console.ReadLine()); double s2 = t*(v1+v2); Console.WriteLine($"S = {s+s2}"); 
+            }
+            {
+                Console.Write("Задание 37\nV1 = "); double v1 = Convert.ToDouble(Console.ReadLine()); Console.Write("V2 = "); double v2 = Convert.ToDouble(Console.ReadLine()); Console.Write("s = "); double s = Convert.ToDouble(Console.ReadLine()); Console.Write("T = "); double t = Convert.ToDouble(Console.ReadLine()); double S = t*(v1+v2); Console.WriteLine($"S = {Math.Abs(s - S)}"); 
+            }
+            {
+                Console.Write("Задание 38\nAx + B = 0\nA = "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("B = "); double b = Convert.ToDouble(Console.ReadLine()); Console.WriteLine($"Ваше уравнение: {a}x + {b} = 0"); Console.WriteLine($"x = {(-1)*b/a}");
+            }
+            {
+                Console.Write("Задание 39\nAx^2 + Bx + C = 0\nA = "); double a = Convert.ToDouble(Console.ReadLine()); Console.Write("B = "); double b = Convert.ToDouble(Console.ReadLine()); Console.Write("C = "); double c = Convert.ToDouble(Console.ReadLine()); double d, x1, x2; d = (b*b-4*a*c); x1 = (-b + Math.Pow(d,0.5)); x2 = (-b - Math.Pow(d,0.5)); Console.WriteLine($"x1 = {x1}\nx2 = {x2}");
+            }
+            {
+                Console.Write("Задание 40\nA1x + B1y = C1\nA2x + B2y = C2\nA1 = "); double a1 = Convert.ToDouble(Console.ReadLine()); Console.Write("B1 = "); double b1 = Convert.ToDouble(Console.ReadLine()); Console.Write("C1 = "); double c1 = Convert.ToDouble(Console.ReadLine()); Console.Write("A2 = "); double a2 = Convert.ToDouble(Console.ReadLine()); Console.Write("B2 = "); double b2 = Convert.ToDouble(Console.ReadLine()); Console.Write("C2 = "); double c2 = Convert.ToDouble(Console.ReadLine()); double x, y, d = a1*b2 - a2*b1; x = (c1*b2 - c2*b1)/d; y = (a1*c2 - a2*c1)/d; Console.WriteLine($"x = {x}\ny = {y}");
             }
         } 
     }
